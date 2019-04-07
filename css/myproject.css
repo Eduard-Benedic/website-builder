@@ -1,0 +1,63 @@
+body {
+  font-size: 1.2rem;
+  box-sizing: border-box;
+  overflow-x: hidden; }
+
+nav {
+  opacity: 0.8; }
+
+#home-section {
+  position: relative;
+  width: 100%;
+  height: auto; }
+  #home-section .arrow {
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    border-radius: 50%;
+    transform: translateY(-100%); }
+    #home-section .arrow i {
+      color: black; }
+  #home-section img {
+    width: 100%;
+    max-height: 650px; }
+
+#section1 {
+  margin-top: 12px; }
+  #section1 li:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    cursor: pointer; }
+  #section1 a {
+    color: black; }
+
+#main-footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.6rem; }
+  #main-footer .icons div {
+    margin-left: 1.6rem; }
+    #main-footer .icons div a {
+      color: white; }
+
+#showcase {
+  position: relative;
+  background: url("../img/img4.jpg");
+  margin-top: 160px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 250px; }
+
+#img-gallery {
+  margin-top: 150px; }
+  #img-gallery a {
+    padding-left: 5px;
+    box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(0, 0, 0, 0.6); }
+
+/*# sourceMappingURL=myproject.css.map */
